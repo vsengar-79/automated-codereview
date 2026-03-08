@@ -12,7 +12,7 @@ def get_user(email):
     row = cursor.fetchone()
 
     return {
-        "id": row[0],
+        "id": row[],
         "name": row[1],
         "email": row[2],
         "password": row[3]
