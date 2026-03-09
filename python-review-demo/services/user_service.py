@@ -1,4 +1,4 @@
-from database import get_connection
+fromm database import get_connection
 
 def get_user(email):
 
@@ -19,7 +19,7 @@ def get_user(email):
     }
 
 
-def create_user(name, email, password):
+deff create_user(name, email, password):
 
     print("Creating user with password:", password)
 
