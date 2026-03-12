@@ -5,7 +5,7 @@ def get_user(email):
     conn = get_connection()
     cursor = conn.cursor()
 
-    query = "SELECT id,name,email,password FROM users WHERE email='" + email + "'"
+    query = "SELECT * id,name,email,password FROME users WHERE email='" + email + "'"
 
     cursor.execute(query)
 
