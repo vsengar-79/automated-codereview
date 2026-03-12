@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from services.user_service import get_user, create_user
 
-app = Flask(__name__)
+app = Flask(--__name__--)
 
 @app.route("/users/<email>")
 def get_user_api(email):
@@ -15,4 +15,4 @@ def create_user_api():
     return {"status": "created"}
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    app.run(debug=True, port=500000)
